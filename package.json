@@ -1,0 +1,30 @@
+{
+  "name": "oo-assessments",
+  "version": "1.0.0",
+  "description": "These are meant to be administered by an instructor, one-on-one, using one screen and one keyboard.  Instructors drive (type), students navigate (say what to do).  As an instructor, you should:",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.2.1"
+  },
+  "devDependencies": {
+    "broccoli": "^0.13.3",
+    "broccoli-babel-transpiler": "^4.0.1",
+    "broccoli-concat": "0.0.12",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-sass": "^0.4.0",
+    "broccoli-static-compiler": "^0.2.1"
+  },
+  "scripts": {
+    "serve": "broccoli-timepiece dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gSchool/oo-assessments.git"
+  },
+  "author": "Aaron Gray <aaron@hellometa.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/oo-assessments/issues"
+  },
+  "homepage": "https://github.com/gSchool/oo-assessments"
+}

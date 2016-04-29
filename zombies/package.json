@@ -1,0 +1,15 @@
+{
+  "name": "zombies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "toll_road.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aaron Gray <aaron@hellometa.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.3.2"
+  }
+}

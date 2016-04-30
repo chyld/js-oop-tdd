@@ -10,18 +10,17 @@
 //     expect(directory.name).toEqual('filestuff');
 //   });
 
-//   // it("returns filenames in order with ls", ()=> {
-//   //   var directory = new Directory('workspace');
-//   //   expect(directory.ls()).toEqual([]);
-//   //
-//   //   directory.write("foo.txt", "w00t!");
-//   //   expect(directory.ls()).toEqual(["foo.txt"]);
-//   //
-//   //   directory.write("bar.txt", "Hello world");
-//   //   expect(directory.ls()).toEqual(["bar.txt", "foo.txt"]);
-//   // });
-//   //
-//   //
+//   it("returns filenames in order with ls", ()=> {
+//     var directory = new Directory('workspace');
+//     expect(directory.ls()).toEqual([]);
+
+//     directory.write("foo.txt", "w00t!");
+//     expect(directory.ls()).toEqual(["foo.txt"]);
+
+//     directory.write("bar.txt", "Hello world");
+//     expect(directory.ls()).toEqual(["bar.txt", "foo.txt"]);
+//   });
+
 //   // it("returns filenames with size with ls_la", ()=> {
 //   //   var directory = new Directory('workspace');
 //   //   expect(directory.ls_la()).toEqual([]);
